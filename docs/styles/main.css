@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(11, 11, 11);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 170px;
+  width: auto;
+  margin: 1rem;
+}
+
+main {
+  font-family: 'Goldman', cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 560px;
+  margin: 0 auto;
+}
+
+div {
+  border: 2px solid silver;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: silver;
+  font-size: 1.2rem;
+}
+
+div:hover {
+  background: radial-gradient(white, rgb(152, 152, 152));
+}
+
+.rebeccapurple {
+  color: rgb(142, 58, 226);
+}
+
+.cyan {
+  color: cyan;
+}
+
+.yellowgreen {
+  color: yellowgreen;
+}
+
+.orangered {
+  color: orangered;
+}
+
+.rebeccapurple:hover {
+  color: rgb(87, 43, 130);
+  border: 2px solid rgb(87, 43, 130);
+  box-shadow: 0 0 5px 2px rgb(87, 43, 130);
+}
+
+.cyan:hover {
+  color: rgb(0, 127, 127);
+  border: 2px solid rgb(0, 127, 127);
+  box-shadow: 0 0 5px 2px rgb(0, 127, 127);
+}
+
+.yellowgreen:hover {
+  color: rgb(89, 119, 30);
+  border: 2px solid rgb(89, 119, 30);
+  box-shadow: 0 0 5px 2px rgb(89, 119, 30);
+}
+
+.orangered:hover {
+  color: rgb(141, 37, 0);
+  border: 2px solid rgb(141, 37, 0);
+  box-shadow: 0 0 5px 2px rgb(141, 37, 0);
+}
